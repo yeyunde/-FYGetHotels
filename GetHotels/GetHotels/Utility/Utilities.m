@@ -52,7 +52,15 @@
     [alertView addAction:cancelAction];
     [vc presentViewController:alertView animated:YES completion:nil];
 }
-
++ (void)popUpAlertViewWithMsg:(NSString *)msg andTitle:(NSString* )title onView:(UIViewController *)vc onCompletion:(void (^)(void))completion
+{
+    UIAlertController *alertView = [UIAlertController alertControllerWithTitle:title == nil ? @"提示" : title message:msg == nil ? @"操作失败" : msg preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        completion();
+    }];
+    [alertView addAction:cancelAction];
+    [vc presentViewController:alertView animated:YES completion:nil];
+}
 + (UIActivityIndicatorView *)getCoverOnView:(UIView *)view
 {
     UIActivityIndicatorView *aiv = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];

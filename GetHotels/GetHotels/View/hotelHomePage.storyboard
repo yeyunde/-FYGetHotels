@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="Aev-Mh-TQr">
             <objects>
-                <viewController id="mrc-sm-vRS" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="mrc-sm-vRS" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rf0-nS-lcR"/>
                         <viewControllerLayoutGuide type="bottom" id="knW-19-22A"/>
@@ -75,7 +75,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="注册新用户"/>
                                         <connections>
-                                            <action selector="signupAction:forEvent:" destination="mrc-sm-vRS" eventType="touchUpInside" id="yce-nc-fTo"/>
+                                            <action selector="createUserAction:forEvent:" destination="mrc-sm-vRS" eventType="touchUpInside" id="mM2-qi-Rj3"/>
                                             <segue destination="JdC-NB-Oob" kind="push" id="ZmQ-0N-Hf4"/>
                                         </connections>
                                     </button>
@@ -135,7 +135,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="loginAction:forEvent:" destination="mrc-sm-vRS" eventType="touchUpInside" id="n0v-jt-zd3"/>
+                                    <action selector="loginAction:forEvent:" destination="mrc-sm-vRS" eventType="touchUpInside" id="voV-UN-Sz9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -156,12 +156,12 @@
                     <navigationItem key="navigationItem" id="cwc-eC-lmj"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="loginBtn" destination="ecE-iL-9Eq" id="ZnO-Ji-8bw"/>
-                        <outlet property="loginView" destination="2R2-mo-HzD" id="UPV-or-uFk"/>
-                        <outlet property="phoneTextField" destination="7YV-wB-xCG" id="0kJ-rI-pqh"/>
-                        <outlet property="pwdTextField" destination="ubm-Sg-xrX" id="TnC-QO-D1k"/>
-                        <outlet property="signupBtn" destination="cwH-SP-oz2" id="8fL-3B-w4J"/>
-                        <outlet property="userImageView" destination="5UB-zf-HGl" id="KvK-Ag-DJD"/>
+                        <outlet property="backView" destination="2R2-mo-HzD" id="IxD-TF-Sst"/>
+                        <outlet property="createUserBtn" destination="cwH-SP-oz2" id="hc7-PS-rN8"/>
+                        <outlet property="imageView" destination="5UB-zf-HGl" id="XtV-Gg-VkO"/>
+                        <outlet property="loginBtn" destination="ecE-iL-9Eq" id="1ls-VO-TtG"/>
+                        <outlet property="phoneTextField" destination="7YV-wB-xCG" id="Wx7-bZ-fBX"/>
+                        <outlet property="pwdTextField" destination="ubm-Sg-xrX" id="7PL-tT-CAB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aof-NV-t8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -203,10 +203,10 @@
             </objects>
             <point key="canvasLocation" x="1232.8" y="130.88455772113943"/>
         </scene>
-        <!--Signup View Controller-->
+        <!--Create View Controller-->
         <scene sceneID="z4P-a9-fGD">
             <objects>
-                <viewController id="2Hd-ri-QTq" customClass="SignupViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="2Hd-ri-QTq" customClass="createViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="URs-Aa-mI8"/>
                         <viewControllerLayoutGuide type="bottom" id="4ZG-Nt-8NL"/>
@@ -350,7 +350,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="signupAction:forEvent:" destination="2Hd-ri-QTq" eventType="touchUpInside" id="gwQ-Tg-fuU"/>
+                                    <action selector="createAction:forEvent:" destination="2Hd-ri-QTq" eventType="touchUpInside" id="4uf-WS-iyM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -371,12 +371,12 @@
                     <navigationItem key="navigationItem" id="vnh-rg-vDK"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="confirmPwdTextField" destination="GWW-wT-0f4" id="xEx-iQ-kxw"/>
-                        <outlet property="phoneTextField" destination="ZHc-6q-FO9" id="jfx-Af-zlK"/>
-                        <outlet property="pwdTextField" destination="MhC-0w-PF4" id="dSn-Xp-tdM"/>
-                        <outlet property="signupBtn" destination="UCo-y8-h8H" id="Jm7-sR-qOs"/>
-                        <outlet property="signupView" destination="gHp-w3-HSk" id="LiL-SX-F6L"/>
-                        <outlet property="userImageView" destination="mfb-ke-f11" id="JdP-1B-yWu"/>
+                        <outlet property="backView" destination="gHp-w3-HSk" id="QSr-N5-Js2"/>
+                        <outlet property="confirmTextField" destination="GWW-wT-0f4" id="X2V-U1-apV"/>
+                        <outlet property="createBtn" destination="UCo-y8-h8H" id="Rie-O3-K5T"/>
+                        <outlet property="imageView" destination="mfb-ke-f11" id="XrP-YQ-7Cd"/>
+                        <outlet property="phoneTextField" destination="ZHc-6q-FO9" id="hOp-bb-hU2"/>
+                        <outlet property="pwdTextField" destination="MhC-0w-PF4" id="KTE-sU-CTv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Xf-Fz-ddA" userLabel="First Responder" sceneMemberID="firstResponder"/>

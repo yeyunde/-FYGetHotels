@@ -37,6 +37,8 @@
 		846DB0221F4D9EE700578D22 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846DB0211F4D9EE700578D22 /* Cities.plist */; };
 		848B67881F57E9EC0045BEB6 /* pay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848B67871F57E9EC0045BEB6 /* pay.storyboard */; };
 		848B678C1F57EDDC0045BEB6 /* PayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */; };
+		848BBDF91F5824B3001831D0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848BBDF81F5824B3001831D0 /* LoginViewController.m */; };
+		848BBDFC1F582876001831D0 /* createViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848BBDFB1F582876001831D0 /* createViewController.m */; };
 		84AEAC4B1F57C71D00EC5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAC4A1F57C71D00EC5E66 /* Main.storyboard */; };
 		84AEAC4D1F57D0E700EC5E66 /* hotelHomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */; };
 		84AEAC4F1F57D28C00EC5E66 /* MyCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAC4E1F57D28C00EC5E66 /* MyCenter.storyboard */; };
@@ -117,6 +119,10 @@
 		848B67871F57E9EC0045BEB6 /* pay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pay.storyboard; sourceTree = "<group>"; };
 		848B678A1F57EDDC0045BEB6 /* PayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTableViewController.h; sourceTree = "<group>"; };
 		848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTableViewController.m; sourceTree = "<group>"; };
+		848BBDF71F5824B3001831D0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		848BBDF81F5824B3001831D0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		848BBDFA1F582876001831D0 /* createViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createViewController.h; sourceTree = "<group>"; };
+		848BBDFB1F582876001831D0 /* createViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createViewController.m; sourceTree = "<group>"; };
 		84AEAC4A1F57C71D00EC5E66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = hotelHomePage.storyboard; sourceTree = "<group>"; };
 		84AEAC4E1F57D28C00EC5E66 /* MyCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCenter.storyboard; sourceTree = "<group>"; };
@@ -196,6 +202,7 @@
 				045E651C1F485D9B001A8263 /* Utility */,
 				045E65191F485D77001A8263 /* Constant */,
 				045E651B1F485D9B001A8263 /* Model */,
+				045E64EE1F485CA3001A8263 /* GetHotels.xcdatamodeld */,
 				045E651D1F485D9B001A8263 /* View */,
 				045E651A1F485D9B001A8263 /* Controller */,
 				045E64E21F485CA3001A8263 /* Supporting Files */,
@@ -351,7 +358,10 @@
 		0477F5281F4C34A600B16FB3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				045E64EE1F485CA3001A8263 /* GetHotels.xcdatamodeld */,
+				848BBDF71F5824B3001831D0 /* LoginViewController.h */,
+				848BBDF81F5824B3001831D0 /* LoginViewController.m */,
+				848BBDFA1F582876001831D0 /* createViewController.h */,
+				848BBDFB1F582876001831D0 /* createViewController.m */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -673,6 +683,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848BBDFC1F582876001831D0 /* createViewController.m in Sources */,
 				045E655F1F485F4D001A8263 /* NSData+Base64.m in Sources */,
 				045E65621F485F4D001A8263 /* NSString+Crypt.m in Sources */,
 				045E655C1F485F4D001A8263 /* AppAPIClient.m in Sources */,
@@ -688,6 +699,7 @@
 				045E655D1F485F4D001A8263 /* ErrorHandler.m in Sources */,
 				045E64E71F485CA3001A8263 /* AppDelegate.m in Sources */,
 				045E65601F485F4D001A8263 /* NSDate+Utility.m in Sources */,
+				848BBDF91F5824B3001831D0 /* LoginViewController.m in Sources */,
 				841E37A11F4965F30057D58A /* HMSegmentedControl.m in Sources */,
 				045E65661F485F4D001A8263 /* Utilities.m in Sources */,
 				045E64E41F485CA3001A8263 /* main.m in Sources */,
@@ -956,8 +968,7 @@
 				045E64EF1F485CA3001A8263 /* GetHotels.xcdatamodel */,
 			);
 			currentVersion = 045E64EF1F485CA3001A8263 /* GetHotels.xcdatamodel */;
-			name = GetHotels.xcdatamodeld;
-			path = ../GetHotels.xcdatamodeld;
+			path = GetHotels.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

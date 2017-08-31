@@ -23,6 +23,8 @@
 + (id)getStoryboardInstance:(NSString *)sbName byIdentity:(NSString *)identity;
 //弹出普通提示框
 + (void)popUpAlertViewWithMsg:(NSString *)msg andTitle:(NSString* )title onView:(UIViewController *)vc;
+//弹出普通提示框
++ (void)popUpAlertViewWithMsg:(NSString *)msg andTitle:(NSString* )title onView:(UIViewController *)vc onCompletion:(void (^)(void))completion;
 //获得保护膜
 + (UIActivityIndicatorView *)getCoverOnView:(UIView *)view;
 //将浮点数转化为保留小数点后若干位数的字符串
