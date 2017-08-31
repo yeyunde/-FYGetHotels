@@ -35,6 +35,8 @@
 		841E379D1F4960710057D58A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E379C1F4960710057D58A /* ViewController.m */; };
 		841E37A11F4965F30057D58A /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E37A01F4965F30057D58A /* HMSegmentedControl.m */; };
 		846DB0221F4D9EE700578D22 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846DB0211F4D9EE700578D22 /* Cities.plist */; };
+		848B67881F57E9EC0045BEB6 /* pay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848B67871F57E9EC0045BEB6 /* pay.storyboard */; };
+		848B678C1F57EDDC0045BEB6 /* PayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */; };
 		84AEAC4B1F57C71D00EC5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAC4A1F57C71D00EC5E66 /* Main.storyboard */; };
 		84AEAC4D1F57D0E700EC5E66 /* hotelHomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */; };
 		84AEAC4F1F57D28C00EC5E66 /* MyCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAC4E1F57D28C00EC5E66 /* MyCenter.storyboard */; };
@@ -112,6 +114,9 @@
 		841E379F1F4965F30057D58A /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
 		841E37A01F4965F30057D58A /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		846DB0211F4D9EE700578D22 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		848B67871F57E9EC0045BEB6 /* pay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pay.storyboard; sourceTree = "<group>"; };
+		848B678A1F57EDDC0045BEB6 /* PayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTableViewController.h; sourceTree = "<group>"; };
+		848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTableViewController.m; sourceTree = "<group>"; };
 		84AEAC4A1F57C71D00EC5E66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = hotelHomePage.storyboard; sourceTree = "<group>"; };
 		84AEAC4E1F57D28C00EC5E66 /* MyCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCenter.storyboard; sourceTree = "<group>"; };
@@ -251,6 +256,7 @@
 		045E651A1F485D9B001A8263 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				848B67891F57EDBB0045BEB6 /* pay */,
 				0464CC301F52D07C006260CE /* ContactService */,
 				04587C831F519986005A7569 /* AccountSetting */,
 				8445AD8F1F4C546C00417B79 /* MyHotelOrder */,
@@ -314,6 +320,7 @@
 				84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */,
 				FE9CAA7E1F49645C0064E327 /* Assets.xcassets */,
 				84CD441A1F49777D0074A42A /* Launch Screen.storyboard */,
+				848B67871F57E9EC0045BEB6 /* pay.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -407,6 +414,15 @@
 			children = (
 			);
 			name = HomeHotel;
+			sourceTree = "<group>";
+		};
+		848B67891F57EDBB0045BEB6 /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				848B678A1F57EDDC0045BEB6 /* PayTableViewController.h */,
+				848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */,
+			);
+			name = pay;
 			sourceTree = "<group>";
 		};
 		8497D00A1F544DEB00B495C6 /* HomeMarkCell */ = {
@@ -584,6 +600,7 @@
 				84AEAC4D1F57D0E700EC5E66 /* hotelHomePage.storyboard in Resources */,
 				FE9CAA7F1F49645C0064E327 /* Assets.xcassets in Resources */,
 				84AEAC4B1F57C71D00EC5E66 /* Main.storyboard in Resources */,
+				848B67881F57E9EC0045BEB6 /* pay.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +681,7 @@
 				841E379D1F4960710057D58A /* ViewController.m in Sources */,
 				045E65631F485F4D001A8263 /* RequestAPI.m in Sources */,
 				045E65611F485F4D001A8263 /* NSDateFormatter+Category.m in Sources */,
+				848B678C1F57EDDC0045BEB6 /* PayTableViewController.m in Sources */,
 				045E655E1F485F4D001A8263 /* JSONS.m in Sources */,
 				FE9C941D1F4E7BAE00252250 /* ZLImageViewDisplayView.m in Sources */,
 				045E64F01F485CA3001A8263 /* GetHotels.xcdatamodeld in Sources */,
