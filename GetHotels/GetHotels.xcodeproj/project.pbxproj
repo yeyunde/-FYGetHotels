@@ -32,6 +32,7 @@
 		045E65741F486133001A8263 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045E65731F486133001A8263 /* CoreTelephony.framework */; };
 		045E65761F48613D001A8263 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045E65751F48613D001A8263 /* libz.tbd */; };
 		3D8A9503E1C97F83257C6E00 /* libPods-GetHotels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FE6991657D1891A74110DA /* libPods-GetHotels.a */; };
+		7850218B1F596D2E00334688 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7850218A1F596D2E00334688 /* Detail.storyboard */; };
 		841E379D1F4960710057D58A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E379C1F4960710057D58A /* ViewController.m */; };
 		841E37A11F4965F30057D58A /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E37A01F4965F30057D58A /* HMSegmentedControl.m */; };
 		846DB0221F4D9EE700578D22 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846DB0211F4D9EE700578D22 /* Cities.plist */; };
@@ -111,6 +112,7 @@
 		045E65751F48613D001A8263 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		27AA3E4D814345D229060FCF /* Pods-GetHotels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHotels.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetHotels/Pods-GetHotels.release.xcconfig"; sourceTree = "<group>"; };
 		55FE6991657D1891A74110DA /* libPods-GetHotels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GetHotels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7850218A1F596D2E00334688 /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		841E379B1F4960710057D58A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		841E379C1F4960710057D58A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		841E379F1F4965F30057D58A /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 				8445AD831F4C533400417B79 /* AllOrderCell */,
 				84A346801F4C43F70051BDFB /* HomeCell */,
 				84AEAC4A1F57C71D00EC5E66 /* Main.storyboard */,
+				7850218A1F596D2E00334688 /* Detail.storyboard */,
 				84AEAC4E1F57D28C00EC5E66 /* MyCenter.storyboard */,
 				84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */,
 				FE9CAA7E1F49645C0064E327 /* Assets.xcassets */,
@@ -633,6 +636,7 @@
 				846DB0221F4D9EE700578D22 /* Cities.plist in Resources */,
 				84AEAC4F1F57D28C00EC5E66 /* MyCenter.storyboard in Resources */,
 				84CD441B1F49777D0074A42A /* Launch Screen.storyboard in Resources */,
+				7850218B1F596D2E00334688 /* Detail.storyboard in Resources */,
 				84AEAC4D1F57D0E700EC5E66 /* hotelHomePage.storyboard in Resources */,
 				FE9CAA7F1F49645C0064E327 /* Assets.xcassets in Resources */,
 				84AEAC4B1F57C71D00EC5E66 /* Main.storyboard in Resources */,

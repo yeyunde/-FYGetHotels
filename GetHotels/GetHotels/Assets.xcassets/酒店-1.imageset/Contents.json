@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "下载.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "酒店.png",
       "scale" : "2x"
     },
     {
