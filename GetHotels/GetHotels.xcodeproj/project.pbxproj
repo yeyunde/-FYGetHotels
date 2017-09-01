@@ -119,6 +119,8 @@
 		847C36981F592055002A91CA /* MyInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyInfo.storyboard; sourceTree = "<group>"; };
 		847C369D1F592129002A91CA /* MyInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
 		847C369E1F59212D002A91CA /* MyInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		847C369F1F592447002A91CA /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
+		847C36A01F59244B002A91CA /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		848B67871F57E9EC0045BEB6 /* pay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pay.storyboard; sourceTree = "<group>"; };
 		848B678A1F57EDDC0045BEB6 /* PayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTableViewController.h; sourceTree = "<group>"; };
 		848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTableViewController.m; sourceTree = "<group>"; };
@@ -435,6 +437,8 @@
 		847C36991F59208F002A91CA /* MyInfoCell */ = {
 			isa = PBXGroup;
 			children = (
+				847C369F1F592447002A91CA /* MyInfoTableViewCell.h */,
+				847C36A01F59244B002A91CA /* MyInfoTableViewCell.m */,
 			);
 			path = MyInfoCell;
 			sourceTree = "<group>";
