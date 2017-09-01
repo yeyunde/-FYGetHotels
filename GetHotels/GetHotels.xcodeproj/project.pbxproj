@@ -116,6 +116,9 @@
 		841E379F1F4965F30057D58A /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
 		841E37A01F4965F30057D58A /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		846DB0211F4D9EE700578D22 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		847C36981F592055002A91CA /* MyInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyInfo.storyboard; sourceTree = "<group>"; };
+		847C369D1F592129002A91CA /* MyInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		847C369E1F59212D002A91CA /* MyInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
 		848B67871F57E9EC0045BEB6 /* pay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pay.storyboard; sourceTree = "<group>"; };
 		848B678A1F57EDDC0045BEB6 /* PayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTableViewController.h; sourceTree = "<group>"; };
 		848B678B1F57EDDC0045BEB6 /* PayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTableViewController.m; sourceTree = "<group>"; };
@@ -263,6 +266,7 @@
 		045E651A1F485D9B001A8263 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				847C369C1F592108002A91CA /* MyInfo */,
 				848B67891F57EDBB0045BEB6 /* pay */,
 				0464CC301F52D07C006260CE /* ContactService */,
 				04587C831F519986005A7569 /* AccountSetting */,
@@ -317,6 +321,7 @@
 		045E651D1F485D9B001A8263 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				847C36991F59208F002A91CA /* MyInfoCell */,
 				8497D00A1F544DEB00B495C6 /* HomeMarkCell */,
 				8445AD8B1F4C53C300417B79 /* DatedOrderTableViewCell */,
 				8445AD871F4C535800417B79 /* UseableOrderTableViewCell */,
@@ -327,6 +332,7 @@
 				84AEAC4C1F57D0E700EC5E66 /* hotelHomePage.storyboard */,
 				FE9CAA7E1F49645C0064E327 /* Assets.xcassets */,
 				84CD441A1F49777D0074A42A /* Launch Screen.storyboard */,
+				847C36981F592055002A91CA /* MyInfo.storyboard */,
 				848B67871F57E9EC0045BEB6 /* pay.storyboard */,
 			);
 			path = View;
@@ -424,6 +430,22 @@
 			children = (
 			);
 			name = HomeHotel;
+			sourceTree = "<group>";
+		};
+		847C36991F59208F002A91CA /* MyInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyInfoCell;
+			sourceTree = "<group>";
+		};
+		847C369C1F592108002A91CA /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				847C369D1F592129002A91CA /* MyInfoViewController.h */,
+				847C369E1F59212D002A91CA /* MyInfoViewController.m */,
+			);
+			path = MyInfo;
 			sourceTree = "<group>";
 		};
 		848B67891F57EDBB0045BEB6 /* pay */ = {
