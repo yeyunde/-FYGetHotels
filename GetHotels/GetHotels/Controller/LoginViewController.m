@@ -149,7 +149,7 @@
         
     } failure:^(NSInteger statusCode, NSError *error) {
         [_avi stopAnimating];
-        [Utilities popUpAlertViewWithMsg:@"网络似乎不太给力,请稍后再试" andTitle:@"提示" onView:self onCompletion:^{
+        [Utilities popUpAlertViewWithMsg:@"网络异常,请稍后再试" andTitle:@"提示" onView:self onCompletion:^{
         }];
         
         
